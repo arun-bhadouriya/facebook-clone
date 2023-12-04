@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: #f0f2f5;
+  }
+  /* login page styles */
+  section#info {
+    width: 60vw;
+    margin: 5rem;
+    padding: 0 0 8rem 1rem;
+  }
+  section#info img {
+    width: 250px;
+  }
+ 
+  section#info p {
+    font-size: 2rem;
+    margin-left: 22px;
+  }
+  
+  div#login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  section #login-form * {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+  }
+  
+  #login-form {
+    width: 30vw;
+    margin: 5rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 1rem;
+    /* text-align: center; */
+  }
+  
+  #login-form input {
+    font-size: 1rem;
+    font-weight: lighter;
+  }
+  
+#login-form a {
+    text-align: center;
+    margin-top: 0;
+  }
+  
+.btn-primary {
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 1rem !important;
+    cursor: pointer;
+}
+
+.btn-green {
+    background: #42b72a;
+    width: fit-content;
+    margin: auto;
+  }
+  
