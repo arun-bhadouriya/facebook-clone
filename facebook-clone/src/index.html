@@ -21,12 +21,12 @@
       </section>
       <!-- form for login -->
       <section>
-        <form action="#" id="login-form">
-          <input type="text" placeholder="Email address or phone number" />
-          <input type="password" placeholder="Password" />
-          <button class="btn-primary">Log in</button>
+        <form action="/login" method="post" id="login-form">
+          <input name="username" type="text" placeholder="Email address or phone number" />
+          <input name="password" type="password" placeholder="Password" />
+          <button id="login-btn" class="btn-primary" name="action" value="login">Log in</button>
           <a href="#">Forgotten Password?</a>
-          <button class="btn-primary btn-green">Create new account</button>
+          <button id="register-btn" class="btn-primary btn-green" name ="action" value="register">Create new account</button>
         </form>
       </section>
     </div>

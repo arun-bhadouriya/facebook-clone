@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Facebook - clone</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="register">
+      <h1>Sign up</h1>
+      <p>It's quick and easy</p>
+      <form action="/register" method="post">
+          <input name="firstname" type="text" placeholder="First Name">
+          <input name="lastname" type="text" placeholder="Surname">
+          <input name="email" type="email" placeholder="Mobile number or phone number">
+          <input name="password" type="password" placeholder="New Password">
+          
+          <label for="dob">Date of Birth : </label>
+          <input type="date" name="dob" id="">
+  
+          <label for="gender">Gender :
+            <input type="radio" name="gender" value="male" id=""> Male
+            <input type="radio" name="gender" value="female" id=""> Female
+            <input type="radio" name="gender" value="others" id=""> Others
+          </label>
+          
+          <button type="submit" class="btn-primary btn-green">Sign Up</button>
+      </form>
+    </div>
+  </body>
+</html>

@@ -43,7 +43,6 @@
     justify-content: center;
     background-color: #fff;
     border-radius: 1rem;
-    /* text-align: center; */
   }
   
   #login-form input {
@@ -73,3 +72,38 @@
     margin: auto;
   }
   
+
+  /* register page styles */
+  /* #register
+        ->h1
+        ->p
+        ->form */
+  #register{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    /* justify-content: center; */
+    padding: 2rem;
+    margin: 2rem;
+    /* align-items: center; */
+  }
+
+  #register form{
+    background-color: #fff;
+    width: 50vw;
+    /* height: 70vh; */
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  #register form input{
+    padding: .5rem;
+    margin: .25rem;
+  }
+
+  #register button{
+    width: 30%;
+    margin-top: 1.5rem;
+  }
